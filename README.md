@@ -1,6 +1,6 @@
 # AirBnB_clone
-**Part 1 :  AirBnB_clone 
-0x00. AirBnB CLONE - The console**
+Part 1 :  AirBnB_clone 
+0x00. AirBnB CLONE - The console
 As aspiring Software Engineers at ALX Software Engineering Programme, we are required to create an AirBnB Clone. The planning of the AirBnB clone has already been done by the ALX Team and students are only expected to replicate it by following a set of instructions. 
 The first step to developing this web application is to create a Command Line Interpreter (CLI) to help us manage the Air BnB project’s objects. Creating the Command Line Interpreter is very important because it will pave the way for building and including static and dynamic contents: HTML/CSS/JS templates, DB storage, File Storage, API (Application Programming Interface) and Front-End Integration.
 
@@ -12,6 +12,8 @@ Retrieving an object from a file, a database etc…
 Doing operations on objects (count, compute stats, etc…)
 Updating attributes of an object and 
 Destroying an object
+
+
 Learning Objectives
 During and after completion  of this project, we will be able to do the following:
 Know how to create a Python package
@@ -24,6 +26,8 @@ Know what is an UUID
 Know what is *args and how to use it
 Know what is **kwargs and how to use it
 Know how to handle named arguments in a function
+
+
 Requirements
 The requirements of this project include:
 Python Scripts
@@ -39,6 +43,7 @@ All your modules should have a documentation (python3 -c 'print(__import__("my_m
 All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+
 Python Unit Tests
 Allowed editors: vi, vim, emacs
 All your files should end with a new line
@@ -54,6 +59,8 @@ You can also test file by file by using this command: python3 -m unittest tests/
 All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
 All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+
+
 Program Build-up
 We are to build the AirBnB Clone web application phase by phase using the SDLC (Software Development Life Cycle)
 Problem Definition / Plan
@@ -238,7 +245,3 @@ The program is interactive and the documentation from the help file is leading e
 **Authors
 **Thomas Kitaba <thomas.kitaba@gmail.com>,
 Hauwa Abdulkadir <ahauwa48@yahoo.com>
-
-
-
-
