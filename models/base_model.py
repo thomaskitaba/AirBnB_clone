@@ -30,21 +30,21 @@ class BaseModel:
             models.storage.new(self)
         models.storage.save()
 
-    @property
-    def email(self):
-        return self.email
+    # @property
+    # def email(self):
+    #     return self.email
 
-    @property
-    def password(self):
-        return self.password
+    # @property
+    # def password(self):
+    #     return self.password
 
-    @property
-    def last_name(self):
-        return self.last_name
+    # @property
+    # def last_name(self):
+    #     return self.last_name
 
-    @property
-    def first_name(self):
-        return self.first_name
+    # @property
+    # def first_name(self):
+    #     return self.first_name
 
     def __str__(self):
 
