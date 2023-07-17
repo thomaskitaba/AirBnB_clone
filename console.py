@@ -218,7 +218,7 @@ class HBNBCommand(cmd.Cmd):
             print("** instance id missing **")
         # elif all(all_objs[new_arg[1]] != obj for obj in all_objs.values()):
         elif "{}.{}".format(new_arg[0], new_arg[1]) not in all_objs.keys():
-            print("** instance id missing **")
+            print("** no instance found **")
         elif len(new_arg) == 2:
             print("** attribute name missing **")
         elif len(new_arg) == 3:
