@@ -59,33 +59,3 @@
     font-weight: 400;
     font-size: 14px;
 }
-
-.locations h3, .amenities h3{
-    font-weight: 600;
-}
-
-.locations h4, .amenities h4{
-    font-weight: 400;
-    font-size: 14px;
-}
-.filters ul {
-    list-style: none;
-
-}
-.filters .popover {
-    position: absolute;
-    top: 80%;
-    left: -20px;
-    display: none;
-    width: 100%;
-    border: 1px solid #DDDDDD;
-    padding-left: 20px;
-
-}
-.filters h2 {
-    margin-bottom: 5px;
-}
-.filters .locations:hover .popover, .filters .amenities:hover .popover {
-    display: block;
-    background-color: #fafafa;
-}
