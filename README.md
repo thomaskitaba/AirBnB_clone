@@ -1,7 +1,7 @@
 # AirBnB_clone
-Part 1 :  AirBnB_clone 
+Part 1 :  AirBnB_clone
 0x00. AirBnB CLONE - The console
-As aspiring Software Engineers at ALX Software Engineering Programme, we are required to create an AirBnB Clone. The planning of the AirBnB clone has already been done by the ALX Team and students are only expected to replicate it by following a set of instructions. 
+As aspiring Software Engineers at ALX Software Engineering Programme, we are required to create an AirBnB Clone. The planning of the AirBnB clone has already been done by the ALX Team and students are only expected to replicate it by following a set of instructions.
 The first step to developing this web application is to create a Command Line Interpreter (CLI) to help us manage the Air BnB project’s objects. Creating the Command Line Interpreter is very important because it will pave the way for building and including static and dynamic contents: HTML/CSS/JS templates, DB storage, File Storage, API (Application Programming Interface) and Front-End Integration.
 
 
@@ -10,7 +10,7 @@ The first step to developing this web application is to create a Command Line In
 Creating a new object (ex: a new User or a new Place)
 Retrieving an object from a file, a database etc…
 Doing operations on objects (count, compute stats, etc…)
-Updating attributes of an object and 
+Updating attributes of an object and
 Destroying an object
 
 
@@ -88,8 +88,8 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 
-(hbnb) 
-(hbnb) 
+(hbnb)
+(hbnb)
 (hbnb) quit
 $
 But also in non-interactive mode: (like the Shell project in C)
@@ -99,7 +99,7 @@ $ echo "help" | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 $ cat test_help
 help
@@ -110,7 +110,7 @@ $ cat test_help | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 AirBnB Clone Console Usage
 How to Start The Console
