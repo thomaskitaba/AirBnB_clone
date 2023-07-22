@@ -1,12 +1,16 @@
 .places {
-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 }
 .places h1 {
     font-size: 30px;
+    width: 100%;
 }
 article {
-
     width: 390px;
     padding: 20px;
     margin: 20px;

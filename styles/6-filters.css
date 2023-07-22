@@ -80,6 +80,7 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     padding-left: 20px;
+    z-index: 11;
 
 }
 .filters h2 {
