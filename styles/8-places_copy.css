@@ -10,6 +10,8 @@
 
     font-size: 30px;
     width: 100%;
+
+
 }
 
 .places article {
@@ -22,6 +24,7 @@ article {
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     display: inline-block;
+
 }
 .places h2 {
     font-size: 30px;
