@@ -1,5 +1,8 @@
 .filters {
     position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #ffffff;
     height: 70px;
     width: 100%;
@@ -32,14 +35,16 @@
     width: 25%;
     float: left;
     margin-left: 20px;
-    margin:one;
 }
 .locations {
 
     border-right: 1px solid #DDDDDD;
 }
-.amenities {
+.filters .amenities {
+
     border: none;
+    border: 3px dashed blue;
+
 }
 .locations h3, .amenities h3 {
     margin-bottom: 0;

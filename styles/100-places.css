@@ -1,5 +1,4 @@
 .places {
-
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -7,11 +6,9 @@
     align-items: stretch;
 }
 .places h1 {
-
     font-size: 30px;
     width: 100%;
 }
-
 .places article {
     position: relative;
     width: 390px;
@@ -20,7 +17,6 @@
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     display: inline-block;
-
 }
 .places h2 {
     font-size: 30px;
@@ -28,7 +24,6 @@
     padding-left: 25%;
     margin-top: 10px;
 }
-
 .price_by_night {
     display:flex;
     justify-content: center;
@@ -43,7 +38,6 @@
     top: 10px;
     right: 10px;
 }
-
 .information {
     display: flex;
     justify-content: center;
@@ -52,7 +46,6 @@
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
 }
-
 .information .max_guest, .information .number_rooms,
 .information .number_bathrooms {
     position: relative;
@@ -82,10 +75,11 @@
     font-weight: bold;
 }
 
-.amenities {
+.places .amenities {
     margin-top: 40px;
+    padding-top: 20px;
 }
-.amenities h2 {
+.places .amenities h2 {
     border-bottom: 1px solid #DDDDDD;
     width: 380px;
     margin-left: -20px;
@@ -139,6 +133,7 @@
 .reivews h3 {
     font-size: 16px;
     margin-left: 0px;
+
 }
 .reviews ul {
     list-style: none;

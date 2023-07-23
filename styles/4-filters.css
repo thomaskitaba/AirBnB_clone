@@ -1,9 +1,11 @@
 .filters {
-    position: relative;
+    display: flex;
+    gap: 20px;
     background-color: #ffffff;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
+    border: 3px dashed blue;
     border-radius: 4px;
 }
 
