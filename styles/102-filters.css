@@ -31,7 +31,7 @@
     width: 25%;
     float: left;
     margin-left: 20px;
-    margin:one;
+
 }
 .locations {
 
@@ -91,20 +91,34 @@
     /* Adjust styles for smaller screens */
     /* Example: Hide a sidebar */
     .filters {
-      background-image: url("../images/humburger.png");
-      background-repeat: no-repeat;
-      background-size:contain;
-      width: 70px;
+            display: flex;
+
+            background-image: url("../images/humburger.png");
+            background-repeat: no-repeat;
+            background-size:contain;
+            width: 70px;
 
 }
 .locations, .amenities, .filters button {
     display: none;
 }
-.filters:hover .locations, .filters:hover .locations {
-    display: block;
-}
-.filters:hover .locations, .filters:hover .amenities {
-    display: block;
-}
 
+.filters:hover .locations, .filters:hover .amenities{
+    display: block;
+}
+.locations, .amenities {
+
+    height: 100%;
+    width: 25%;
+
+    top: 0px;
+    margin:one;
+}
+.locations {
+
+    border-right: 1px solid #DDDDDD;
+}
+.amenities {
+    border: none;
+}
 }
