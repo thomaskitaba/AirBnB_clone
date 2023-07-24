@@ -7,6 +7,7 @@
 }
 .places h1 {
     font-size: 30px;
+    margin-left: 10px;
     width: 100%;
 }
 .places article {
@@ -83,7 +84,8 @@
 .places .amenities {
     margin-top: 40px;
     width: 100%;
-    margin-left: 10px;
+    margin-left: 50px;
+
 }
 .places .amenities h2 {
     font-size: 16px;

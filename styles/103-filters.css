@@ -31,7 +31,6 @@
     width: 25%;
     float: left;
     margin-left: 20px;
-
 }
 .filters .locations {
 
@@ -99,7 +98,6 @@
     }
 
     .filters .locations, .filters .amenities{
-
         width: 100px;
         height: 70px;
         float: left;
@@ -108,6 +106,9 @@
     }
     .filters .locations {
         border-bottom: 1px solid #DDD;
+        padding-bottom: 10px;
+    }
+    .filters .amenities{
         padding-bottom: 10px;
     }
     .filters button{
