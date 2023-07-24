@@ -31,6 +31,10 @@
     width: 25%;
     float: left;
     margin-left: 20px;
+
+}
+.filters .locations *, .filters .amenities *{
+    margin-top: 15px;
 }
 .filters .locations {
 
