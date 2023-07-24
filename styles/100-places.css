@@ -41,7 +41,7 @@
 .information {
     display: flex;
     justify-content: center;
-    border: 1px 1px solid #DDDDDD;
+    border: 1px solid #DDDDDD;
     height: 80px;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
