@@ -1,11 +1,11 @@
 .filters {
     display: flex;
+    position: relative;
     gap: 20px;
     background-color: #ffffff;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
-    border: 3px dashed blue;
     border-radius: 4px;
 }
 
@@ -25,4 +25,8 @@
 }
 .filters button:hover{
     background-color: rgba(255, 90, 95, 0.9);
+}
+
+.filters h2 {
+    display: none;
 }
