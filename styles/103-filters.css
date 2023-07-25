@@ -113,7 +113,6 @@
         display: none;
     }
 
-
     .filters .locations, .filters .amenities, .filters_button{
         padding-left: 0px;
         width: 100px;
@@ -170,7 +169,7 @@
         flex-direction: column;
         border: 1px solid #CCC;
         position: absolute;
-        background-color: rgb(178, 175, 175);
+        background-color: rgb(230, 226, 226);
         top: 100%;
         width: 340px;
         z-index: 12;
